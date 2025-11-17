@@ -21,8 +21,8 @@ Send a name, get back an age prediction with confidence data.
 ### Option 1: Automated Script (Recommended)
 
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/jesseturner21/lambda_age_example.git
+cd lambda_age_example 
 chmod +x deploy.sh
 ./deploy.sh
 ```
@@ -34,8 +34,8 @@ That's it! The script handles everything: creating the IAM role, packaging, depl
 ### 1. Clone this repo
 
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/jesseturner21/lambda_age_example.git
+cd lambda_age_example
 ```
 
 ### 2. Create a ZIP package
